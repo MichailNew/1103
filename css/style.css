@@ -1,0 +1,282 @@
+html {
+  font-size: 14px;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../img/butterfly.png), url("../img/web.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px, cover;
+  background-position: right 400px, 0 0;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 40px;
+  background-color: rgb(71, 202, 88);
+  border: 15px rgb(3, 14, 14);
+}
+
+.header-title {
+  padding: 10px 0;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  box-shadow: 0 0 30px rgb(198, 230, 57);
+}
+
+.title {
+  color: rgb(102, 102, 146);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.section {
+  padding: 25px 30px;
+  background: rgb(50, 39, 192);
+}
+
+.section .desc {
+  font-size: 1.1rem;
+  color: brown;
+}
+
+section.serv {
+  padding: 50px;
+  border: 5px solid red;
+  border-bottom: 10px solid rgb(224, 148, 148);
+  border-bottom-style: dashed;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.btn {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px 60px;
+
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.btn-call {
+  width: 332px;
+  text-transform: uppercase;
+  background-color: #bf53ff;
+}
+
+.btn-class {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #5e94ff 37.5%,
+    rgba(58, 103, 190, 0.9) 100%
+  );
+  box-shadow: 0px 3px 10px 2px rgba(90, 146, 255, 0.4);
+  border-radius: 30px;
+}
+
+.btn-class::before {
+  position: absolute;
+  content: "";
+
+  /* display: inline-block; */
+  width: 20px;
+  height: 20px;
+  /* margin-right: 8px; */
+
+  top: 19px;
+  left: 32px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  /* vertical-align: middle; */
+
+  background-image: url("../img/icons/icon-cart.svg");
+}
+
+.btn {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px 60px;
+
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #5d5c5e;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #838383;
+
+  transition: all 0.25s;
+}
+
+.btn:hover {
+  color: rgb(34, 34, 34);
+  background: rgb(231, 230, 230);
+  box-shadow: 2px 2px 5px rgb(231, 230, 230);
+}
+
+.btn:active {
+  color: blue;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 5px gold;
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+
+  /* background-color: red; */
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.btn_order {
+  background-color: #ff5353;
+  border: 1px solid #ff5353;
+  box-shadow: inset 0 0 0 4px white;
+  border-radius: 0;
+}
+
+/* .icon-cart{
+background-image: url(../img/icons/icon-cart.svg);
+} */
+
+/* .text-link {
+  color: aliceblue;
+
+}
+
+.text-link:hover{
+  text-decoration: none;
+  color: yellow;
+}
+.text-link:focus{
+  font-size: 1.1rem;
+  outline: none;
+}
+.text-link:active {
+  color: red;
+} */
+
+.log1 {
+  position: relative;
+  width: 300px;
+  height: 375px;
+
+  background: #f2f3f5;
+  border: 2px solid rgba(147, 184, 250, 0.75);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.first {
+  position: absolute;
+  width: 243px;
+  height: 130px;
+  left: 20px;
+  top: 21px;
+}
+.second {
+  
+  position: absolute;
+  width: 243px;
+  height: 162px;
+  left: 20px;
+  top: 192px;
+}
+hr{
+  position: absolute;
+width: 303px;
+height: 0px;
+left: -3px;
+top: 171px;
+
+border: 1px solid #D6DBE0;
+}
+
+.first a{
+  position: absolute;
+width: 178px;
+height: 20px;
+left: 20px;
+top: 131px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+color: #005BFF;
+
+}
+
+.second p{
+  position: relative;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #001A34;
+}
+
+.second .buttons{
+  position: absolute;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 22px;
+
+color: #FFFFFF;
+
+}
+.buttons{
+  position: absolute;
+  width: 243px;
+  height: 51px;
+  left: 20px;
+  top: 111px;
+
+background: #005BFF;
+border-radius: 5px;
+}
+.span1{
+  background-image: url(../img/icons/arrow.svg);
+}
